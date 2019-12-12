@@ -1,2 +1,0 @@
-# khairulbahri.com
-Personal Site
