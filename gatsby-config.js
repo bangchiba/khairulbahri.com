@@ -114,8 +114,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `thomas-maximini-com`,
-        short_name: `tmaximini`,
+        name: `khairul-bahri-com`,
+        short_name: `bangchiba`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
