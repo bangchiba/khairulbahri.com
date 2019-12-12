@@ -22,7 +22,7 @@ exports.createPages = async ({ actions, graphql }) => {
   // const travelTemplate = path.resolve("src/templates/travel.js");
   const projectTemplate = path.resolve("src/templates/project.js");
 
-  const photosTemplate = require.resolve("./src/templates/photos.js")
+  // const photosTemplate = require.resolve("./src/templates/photos.js")
 
   const allMarkdown = await graphql(`
     {
