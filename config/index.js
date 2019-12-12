@@ -4,11 +4,11 @@ module.exports = {
     siteTitle: "Khairul Bahri", // Navigation and Site Title
     siteTitleAlt: "Khairul Bahri - Full stack web developer", // Alternative Site title for SEO
     siteTitleShort: "Khairul Bahri", // short_name for manifest
-    siteHeadline: "Full stack web developer from Germany", // Headline for schema.org JSONLD
+    siteHeadline: "Full stack web developer ", // Headline for schema.org JSONLD
     siteUrl: "https://khairulbahri.com", // Domain of your site. No trailing slash!
     siteLanguage: "en", // Language Tag on <html> element
     siteLogo: "/logo.png", // Used for SEO and manifest
-    siteDescription: "Khairul Bahri, Freelance web developer from Germany",
+    siteDescription: "Khairul Bahri, Fullstack web developer ",
     author: "Khairul Bahri <khairulbahri.aceh@gmail.com>", // Author for schema.org JSONLD
   
     keywords:
