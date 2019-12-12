@@ -5,6 +5,7 @@ node_js:
   - "12.3.1"
 deploy:
   provider: script
+  github-token: $GITHUB_TOKEN
   script: cd docs/ && yarn install && yarn run deploy
   skip_cleanup: true
   on:
