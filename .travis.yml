@@ -23,7 +23,7 @@ deploy:
   skip-cleanup: true
   keep-history: true
   github-token: $GITHUB_TOKEN
-  local-dir: docs
+  local-dir: public
   target-branch: master
   on:
     branch: develop
