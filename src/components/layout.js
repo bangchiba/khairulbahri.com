@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, develop by
+          © {new Date().getFullYear()}, Develop by
           {` `}
           <a href="https://khairulbahri.com">Khairul Bahri</a>
         </footer>
