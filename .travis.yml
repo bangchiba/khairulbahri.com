@@ -1,12 +1,34 @@
-  language: node_js
-before_script:
-  - npm install -g gatsby
+# setup languange & cache
+language: node_js
 node_js:
   - "12.3.1"
+cache:
+  directories:
+    - ~/.npm
+
+# setup notifikasi ke email
+notifications:
+  email:
+    recipients:
+      - chibaxp.tech@gmail.com
+    on_success: always
+    on_failure: always
+
+# setup git dengan 3 kloningan supaya lebih cepat
+git:
+  depth: 3
+
+# setup script build
+script:
+  - yarn build
+
+# setup deploy pada provider github pages, target branch build dri develop ke masters
 deploy:
-  provider: script
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
   github-token: $GITHUB_TOKEN
-  script: cd docs/ && yarn install && yarn run deploy
-  skip_cleanup: true
+  local-dir: public
+  target-branch: master
   on:
-    branch: master
+    branch: develop
